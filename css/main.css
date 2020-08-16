@@ -1,0 +1,68 @@
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgImg {
+  position: absolute;
+}
+
+.mainCon {
+  z-index: 1;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-top: 50px;
+}

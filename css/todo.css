@@ -1,0 +1,10 @@
+.todoCon {
+  height: 50%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 700;
+}

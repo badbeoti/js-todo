@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>badbeoti-todo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="mainCon">
+        <section class="todoCon">
+            <form class="toDoForm">
+                <input type="text" class="toDo" id="toDo" name="toDo" placeholder="Add task" />
+            </form>
+            <label for="pend"></label>
+            <span>Pending</span>
+            <ul class="toDoList-pend"></ul>
+            <label for="finished"></label>
+            <span>Finished</span>
+            <ul class="toDoList-finished"></ul>
+        </section>
+        <section class="center">
+            <div class="js-clock">
+                <span class="clock-text">00:00</span>
+            </div>
+            <div class="js-name"></div>
+        </section>
+    </div>
+    <div class="js-weather weather">
+        <span class="weather-text"></span>
+    </div>
+    <script src="src/todolist.js"></script>
+    <script src="src/name.js"></script>
+    <script src="src/js-clock.js"></script>
+    <script src="src/js-weather.js"></script>
+    <script src="src/js-bg.js"></script>
+</body>
+
+</html>
